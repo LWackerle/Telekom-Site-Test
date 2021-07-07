@@ -1,0 +1,25 @@
+<scale-app-shell>
+  <app-top-bar slot="header"></app-top-bar>
+
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+
+  <div style="height: 800px; padding: 48px 0;">
+    Scroll to test header behavior
+
+    <scale-button>test</scale-button>
+  </div>
+  <div style="height: 800px; padding: 48px 0;">
+    Scroll more to test header behavior
+  </div>
+  <scale-app-footer
+    claim-lang="en"
+    [footerNavigation]="footerNavigation"
+    
+		claim-lang="en"
+    [footerNavigation]="footerNavigation"
+    slot="footer"
+  >
+  </scale-app-footer>
+</scale-app-shell>
